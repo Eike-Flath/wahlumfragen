@@ -3,6 +3,7 @@
 
 !/.gitignore
 
+!/gradle/wrapper/*
 !/build.gradle
 !/gradlew
 !/gradlew.bat
