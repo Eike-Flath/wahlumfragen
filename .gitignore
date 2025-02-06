@@ -1,0 +1,13 @@
+*
+!*/
+
+!/.gitignore
+
+!/build.gradle
+!/gradlew
+!/gradlew.bat
+!/settings.gradle
+!*.java
+
+!/visualize.py
+

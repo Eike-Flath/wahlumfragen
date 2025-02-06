@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'dev.flath'
+version = '1.0-SNAPSHOT'
+
+application {
+    mainClass = 'dev.flath.wahlumfragen.Main'
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.jsoup', name: 'jsoup', version: '1.18.3'
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.12.1'
+}
+
+test {
+}
